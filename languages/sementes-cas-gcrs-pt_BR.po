@@ -1,0 +1,639 @@
+# Copyright (C) 2022 EITA
+# This file is distributed under the same license as the Eitagcr Plugin plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Eitagcr Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/eitagcr-refactor\n"
+"POT-Creation-Date: 2022-05-24T00:43:44-03:00\n"
+"PO-Revision-Date: 2022-05-24 00:44-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: sementes-cas-gcrs\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+msgid ""
+"Sementes - Sistema de Cestas Agroecológicas e de Grupos de Consumo "
+"Responsável"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://gitlab.com/eita/eitagcr"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin offers some enhancements to the Woocommerce e-commerce platform "
+"to make it fit for using in Responsible Consumer Groups (GCR). It assumes "
+"GCRs are composed by several consumers and several suppliers, and the there "
+"is a buying cycle."
+msgstr ""
+"Este plugin oferece algumas melhorias na plataforma de e-commerce "
+"Woocommerce para torná-la adequada para uso em Grupos de Consumidores "
+"Responsáveis ​​(GCR). "
+
+#. Author of the plugin
+msgid "Cooperativa EITA"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://eita.coop.br"
+msgstr ""
+
+#: inc/Api/Callbacks/ReportCallbacks.php:93
+msgid "Report generated successfully"
+msgstr "Relatório gerado com sucesso"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:101
+msgid "Cycle created successfully"
+msgstr "Ciclo criado com sucesso"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:332
+#: inc/Api/Callbacks/ReportCallbacks.php:409
+#: inc/Api/Callbacks/ReportCallbacks.php:519
+#: inc/Api/Callbacks/ReportCallbacks.php:599
+#: inc/Api/Callbacks/ReportCallbacks.php:707
+msgid "Qty"
+msgstr "Qtd"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:333
+#: inc/Api/Callbacks/ReportCallbacks.php:410
+#: inc/Api/Callbacks/ReportCallbacks.php:520
+#: inc/Api/Callbacks/ReportCallbacks.php:600
+#: inc/Api/Callbacks/ReportCallbacks.php:708
+msgid "Product"
+msgstr "Produto"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:334
+#: inc/Api/Callbacks/ReportCallbacks.php:412
+#: inc/Api/Callbacks/ReportCallbacks.php:521
+#: inc/Api/Callbacks/ReportCallbacks.php:602
+#: inc/Api/Callbacks/ReportCallbacks.php:709
+msgid "Unit price"
+msgstr "Preço unitário"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:335
+#: inc/Api/Callbacks/ReportCallbacks.php:413
+#: inc/Api/Callbacks/ReportCallbacks.php:522
+#: inc/Api/Callbacks/ReportCallbacks.php:603
+#: inc/Api/Callbacks/ReportCallbacks.php:710
+msgid "Price per product"
+msgstr "Preço por produto"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:338
+#: inc/Api/Callbacks/ReportCallbacks.php:418
+#: inc/Api/Callbacks/ReportCallbacks.php:526
+#: inc/Api/Callbacks/ReportCallbacks.php:607
+#: inc/Api/Callbacks/ReportCallbacks.php:714
+#: inc/Api/Callbacks/ReportCallbacks.php:813
+msgid "With tax"
+msgstr "Com margem"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:376
+#: inc/Api/Callbacks/ReportCallbacks.php:472
+#: inc/Api/Callbacks/ReportCallbacks.php:563
+#: inc/Api/Callbacks/ReportCallbacks.php:775
+#: inc/Api/Callbacks/ReportCallbacks.php:874
+msgid "Total"
+msgstr "Total"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:382
+#: inc/Api/Callbacks/ReportCallbacks.php:478
+#: inc/Api/Callbacks/ReportCallbacks.php:568
+#: inc/Api/Callbacks/ReportCallbacks.php:679
+#: inc/Api/Callbacks/ReportCallbacks.php:780
+msgid "Total with taxes"
+msgstr "Total com margem"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:411
+#: inc/Api/Callbacks/ReportCallbacks.php:808
+msgid "Order"
+msgstr "Pedido"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:601
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:809
+msgid "Order Price"
+msgstr "Valor do Pedido"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:889
+msgid "Payment Method Total"
+msgstr "Total do método de pagamento"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:895
+msgid "Payment Method Total (with tax)"
+msgstr "Total do método de pagamento (com margem)"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:910
+msgid "Total cycle"
+msgstr "Total do ciclo"
+
+#: inc/Api/Callbacks/ReportCallbacks.php:917
+msgid "Total cycle (with tax)"
+msgstr "Total do ciclo (com margem)"
+
+#: inc/Api/CustomPostTypeApi.php:98
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: inc/Api/CustomPostTypeApi.php:99
+msgid "Add New %s"
+msgstr "Adicionar Novo %s"
+
+#: inc/Api/CustomPostTypeApi.php:100
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: inc/Api/CustomPostTypeApi.php:101
+msgid "New %s"
+msgstr "Novo %s"
+
+#: inc/Api/CustomPostTypeApi.php:103
+msgid "View %s"
+msgstr "Visualizar %s"
+
+#: inc/Api/CustomPostTypeApi.php:104
+msgid "Search %s"
+msgstr "Pesquisar %s"
+
+#: inc/Api/CustomPostTypeApi.php:105
+msgid "No %s Found"
+msgstr "%s não encontrado"
+
+#: inc/Api/CustomPostTypeApi.php:106
+msgid "No %s Found In Trash"
+msgstr "%s não encontrado na lixeira"
+
+#: inc/Api/CustomPostTypeApi.php:151
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr ""
+
+#: inc/Api/CustomPostTypeApi.php:152
+msgid "Custom field updated."
+msgstr "Campo customizável atualizado"
+
+#: inc/Api/CustomPostTypeApi.php:153
+msgid "Custom field deleted."
+msgstr "Campo customizável deletado"
+
+#: inc/Api/CustomPostTypeApi.php:154
+msgid "%1$s updated."
+msgstr "%1$s atualizado."
+
+#: inc/Api/CustomPostTypeApi.php:155
+msgid "%1$s restored to revision from %2$s."
+msgstr ""
+
+#: inc/Api/CustomPostTypeApi.php:156
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s publicado. %2$sVisualizar %3$s%4s."
+
+#: inc/Api/CustomPostTypeApi.php:157
+msgid "%1$s saved."
+msgstr "%1$s salvo."
+
+#: inc/Api/CustomPostTypeApi.php:158
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr ""
+
+#: inc/Api/CustomPostTypeApi.php:159
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr ""
+
+#: inc/Api/CustomPostTypeApi.php:159
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: inc/Api/CustomPostTypeApi.php:160
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s rascuho atualizado. %2$sVisualizar %3$s%4$s."
+
+#: inc/Api/CustomPostTypeApi.php:178
+msgid "%1$s %2$s updated."
+msgid_plural "%1$s %3$s updated."
+msgstr[0] "%1$s %2$s atualizado."
+msgstr[1] ""
+
+#: inc/Api/CustomPostTypeApi.php:179
+msgid "%1$s %2$s not updated, somebody is editing it."
+msgid_plural "%1$s %3$s not updated, somebody is editing them."
+msgstr[0] "%1$s %2$s não foi atualizado, alguém está o editando"
+msgstr[1] ""
+
+#: inc/Api/CustomPostTypeApi.php:180
+msgid "%1$s %2$s permanently deleted."
+msgid_plural "%1$s %3$s permanently deleted."
+msgstr[0] "%1$s %2$s permanentemente deletado."
+msgstr[1] ""
+
+#: inc/Api/CustomPostTypeApi.php:181
+msgid "%1$s %2$s moved to the Trash."
+msgid_plural "%1$s %3$s moved to the Trash."
+msgstr[0] "%1$s %2$s movido para a lixeira"
+msgstr[1] ""
+
+#: inc/Api/CustomPostTypeApi.php:182
+msgid "%1$s %2$s restored from the Trash."
+msgid_plural "%1$s %3$s restored from the Trash."
+msgstr[0] "%1$s %2$s restaurado da lixeira."
+msgstr[1] ""
+
+#: inc/Base/CycleController.php:232 inc/Base/CycleController.php:252
+msgid "Cycles"
+msgstr "Ciclos"
+
+#: inc/Base/CycleController.php:233 inc/Base/CycleController.php:393
+#: inc/Base/CycleController.php:417 inc/Base/ReportController.php:232
+msgid "Cycle"
+msgstr "Ciclo"
+
+#: inc/Base/CycleController.php:276 inc/Base/CycleController.php:278
+#: inc/Base/CycleController.php:280
+msgid "The cycle is "
+msgstr "O ciclo está "
+
+#: inc/Base/CycleController.php:276 inc/Base/CycleController.php:355
+#: inc/Base/CycleController.php:602
+msgid "Open"
+msgstr "Aberto"
+
+#: inc/Base/CycleController.php:278 inc/Base/CycleController.php:604
+msgid "Suspended"
+msgstr "Suspenso"
+
+#: inc/Base/CycleController.php:280 inc/Base/CycleController.php:354
+#: inc/Base/CycleController.php:606
+msgid "Closed"
+msgstr "Fechado"
+
+#: inc/Base/CycleController.php:289
+msgid "Close cycle \"%s\" before opening another manual cycle"
+msgstr "Feche o ciclo \"%s\" antes de abrir um novo ciclo manual"
+
+#: inc/Base/CycleController.php:313
+msgid "Cycle settings"
+msgstr "Configurações do ciclo"
+
+#: inc/Base/CycleController.php:326
+msgid "Cycle mode:"
+msgstr "Abertura e fechamento do ciclo"
+
+#: inc/Base/CycleController.php:329 inc/Base/GeneralSettingsController.php:51
+msgid "Automatic (date/time)"
+msgstr "Automáticos (data/hora)"
+
+#: inc/Base/CycleController.php:330 inc/Base/CycleController.php:611
+#: inc/Base/GeneralSettingsController.php:52
+msgid "Manual"
+msgstr "Manual"
+
+#: inc/Base/CycleController.php:334
+msgid "Opening"
+msgstr "Abertura"
+
+#: inc/Base/CycleController.php:341
+msgid "Closing"
+msgstr "Fechamento"
+
+#: inc/Base/CycleController.php:348 inc/Base/CycleController.php:587
+msgid "Status"
+msgstr "Situação"
+
+#: inc/Base/CycleController.php:383 inc/Base/ReportController.php:136
+msgid "No cycle"
+msgstr "Nenhum ciclo"
+
+#: inc/Base/CycleController.php:451 inc/Base/DashboardController.php:165
+msgid "Cycle summary"
+msgstr "Resumo do ciclo"
+
+#: inc/Base/CycleController.php:452 inc/Base/DashboardController.php:166
+#: inc/Base/ReportController.php:148
+msgid "Orders"
+msgstr "Pedidos"
+
+#: inc/Base/CycleController.php:453 inc/Base/DashboardController.php:167
+msgid "Total sold"
+msgstr "Total vendido"
+
+#: inc/Base/CycleController.php:454 inc/Base/DashboardController.php:168
+msgid "Number of "
+msgstr "Quantidade de "
+
+#: inc/Base/CycleController.php:460 inc/Base/DashboardController.php:182
+msgid "No "
+msgstr "Sem "
+
+#: inc/Base/CycleController.php:461 inc/Base/DashboardController.php:183
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] "pedido"
+msgstr[1] "pedidos"
+
+#: inc/Base/CycleController.php:470 inc/Base/DashboardController.php:176
+msgid "View reports"
+msgstr "Visualizar relatórios"
+
+#: inc/Base/CycleController.php:475
+msgid "There are no orders in this cycle"
+msgstr "Não há pedidos nesse ciclo"
+
+#: inc/Base/CycleController.php:500
+msgid ""
+"The cycle you are creating overlaps the cycle: %1$s (%2$s - %3$s). Choose "
+"new dates and try again."
+msgstr ""
+"O ciclo que você está criando se sobrepõe ao ciclo: %1$s (%2$s - %3$s). "
+"Escolha novas datas e tente novamente."
+
+#: inc/Base/CycleController.php:513
+msgid ""
+"The cycle %s is already open. Close it before opening a new manual cycle."
+msgstr ""
+"O ciclo %s já está aberto. Feche ele antes de abrir um novo ciclo manual."
+
+#: inc/Base/CycleController.php:542
+msgid "Opening time can't be empty"
+msgstr "A data de abertura não pode ser vazia"
+
+#: inc/Base/CycleController.php:544
+msgid "Closing time can't be empty"
+msgstr "A data de fechamento não pode ser vazia"
+
+#: inc/Base/CycleController.php:588
+msgid "Mode"
+msgstr "Tipo"
+
+#: inc/Base/CycleController.php:589
+msgid "Opening time"
+msgstr "Abertura"
+
+#: inc/Base/CycleController.php:590
+msgid "Closing time"
+msgstr "Fechamento"
+
+#: inc/Base/CycleController.php:591
+msgid "Total orders"
+msgstr "Total vendido"
+
+#: inc/Base/CycleController.php:613
+msgid "Automatic"
+msgstr "Automático"
+
+#: inc/Base/DashboardController.php:53 inc/Base/DashboardController.php:55
+msgid "Sementes"
+msgstr ""
+
+#: inc/Base/DashboardController.php:99
+msgid "Dashboard"
+msgstr "Painel"
+
+#: inc/Base/DashboardController.php:152
+msgid "The manual cycle \"%s\" is open"
+msgstr "O ciclo manual \"%s\" está aberto"
+
+#: inc/Base/DashboardController.php:154
+msgid "The automatic cycle \"%s\" is open from %s until %s"
+msgstr "O ciclo automático \"%s\" está aberto desde %s até %s"
+
+#: inc/Base/DashboardController.php:158
+msgid "Warning: the cycle \"%s\" is suspended"
+msgstr "Atenção: o ciclo \"%s\" está suspenso"
+
+#: inc/Base/DashboardController.php:161
+msgid "Edit open cycle"
+msgstr "Editar ciclo aberto"
+
+#: inc/Base/DashboardController.php:171
+msgid "Cycle orders"
+msgstr "Pedidos do ciclo"
+
+#: inc/Base/DashboardController.php:188
+msgid "There is no open cycle"
+msgstr "Não há nenhum ciclo aberto"
+
+#: inc/Base/DeliveryPlaceController.php:35
+#: inc/Base/DeliveryPlaceController.php:53
+msgid "Pickup places"
+msgstr "Locais de retirada"
+
+#: inc/Base/DeliveryPlaceController.php:54
+msgid "Pickup place"
+msgstr "Local de retirada"
+
+#: inc/Base/DeliveryPlaceController.php:88
+msgid "Select the pickup place"
+msgstr "Selecione os locais de retirada"
+
+#: inc/Base/GeneralSettingsController.php:33
+msgid "Generate Report"
+msgstr "Atualizar relatório"
+
+#: inc/Base/GeneralSettingsController.php:39
+msgid "Settings"
+msgstr "Configurações"
+
+#: inc/Base/GeneralSettingsController.php:47
+msgid "Preference for cycle"
+msgstr "Preferência para ciclo"
+
+#: inc/Base/GeneralSettingsController.php:48
+msgid ""
+"Define which type of cycle will have priority if a manual cycle and an "
+"automatic cycle are open at the same time."
+msgstr ""
+"Defina que tipo de ciclo terá prioridade caso esteja aberto um ciclo manual "
+"e um ciclo automático ao mesmo tempo."
+
+#: inc/Base/GeneralSettingsController.php:56
+msgid "Home page when cycle is open"
+msgstr "Página Inicial do Ciclo Aberto"
+
+#: inc/Base/GeneralSettingsController.php:57
+msgid "Choose the page used for home when cycle is open."
+msgstr "Selecione a página inicial do site quando ciclo estiver aberto."
+
+#: inc/Base/GeneralSettingsController.php:63
+msgid "Home page when cycle is closed"
+msgstr "Página Inicial do Ciclo Fechado"
+
+#: inc/Base/GeneralSettingsController.php:64
+msgid "Choose the page used for home when cycle is closed."
+msgstr "Selecione a página inicial do site quando ciclo estiver fechado."
+
+#: inc/Base/GeneralSettingsController.php:70
+msgid "Warning time threshold (minutes)"
+msgstr "Limite de tempo para aviso (minutos)"
+
+#: inc/Base/GeneralSettingsController.php:71
+msgid "Set the amount of time to show a warning before the cycle closes."
+msgstr ""
+"Defina a quantidade de minutos antes do fim de um Ciclo Automático para que "
+"seja exibido um aviso no site de que a loja irá fechar."
+
+#: inc/Base/GeneralSettingsController.php:78
+msgid "Enable pickup place feature"
+msgstr "Habilitar Local de Retirada"
+
+#: inc/Base/GeneralSettingsController.php:79
+msgid "Mark here to be able to set different pickup places for each order."
+msgstr ""
+"Marque para habilitar a funcionalidade de múltiplos locais de retirada."
+
+#: inc/Base/GeneralSettingsController.php:84
+msgid "Cycle pickup places"
+msgstr "Locais de retirada"
+
+#: inc/Base/GeneralSettingsController.php:85
+msgid "Uncheck pickup place to disable it for this cycle"
+msgstr "Desmarque o local de retirada para desabilitá-lo no ciclo ativo."
+
+#: inc/Base/GeneralSettingsController.php:94
+msgid "Admin Section"
+msgstr "Seção para desenvolvedores"
+
+#: inc/Base/GeneralSettingsController.php:95
+msgid "This section should only be used by developers and admins."
+msgstr "Atenção: essa seção só deve ser usada por desenvolvedores."
+
+#: inc/Base/GeneralSettingsController.php:100
+msgid "Enable tax feature"
+msgstr "Habilitar margem nos relatórios"
+
+#: inc/Base/GeneralSettingsController.php:101
+msgid "Mark here to be able to visualize tax info on reports."
+msgstr "Marque para poder visualizar a margem na seção de relatórios."
+
+#: inc/Base/GeneralSettingsController.php:107
+msgid "Which taxonomy represents suppliers?"
+msgstr "Escolha a taxonomia que representa o fornecedor"
+
+#: inc/Base/GeneralSettingsController.php:108
+msgid ""
+"Choose the among your product taxonomies which one represents the suppliers. "
+"This is used to generate supplier related reports."
+msgstr ""
+"Escolha, entre as taxonomias de produtos, aquela que representa os "
+"fornecedores para que entre no relatório."
+
+#: inc/Base/GeneralSettingsController.php:116
+msgid "Which name represents suppliers?"
+msgstr "Qual é o nome que representa os fornecedores?"
+
+#: inc/Base/GeneralSettingsController.php:117
+msgid "e.g.: suppliers, enterprises, settlements ..."
+msgstr "Ex.: Fornecedoras, Empreendimentos, Assentamentos..."
+
+#: inc/Base/GeneralSettingsController.php:120 inc/Base/ReportController.php:142
+msgid "Suppliers"
+msgstr "Fornecedoras"
+
+#: inc/Base/GeneralSettingsController.php:124
+msgid "Update report"
+msgstr "Atualizar relatórios"
+
+#: inc/Base/ReportController.php:97
+msgid "Could not generate report"
+msgstr "Não foi possível gerar o relatório"
+
+#: inc/Base/ReportController.php:154
+msgid "Report Orders/%s"
+msgstr "Pedidos por %s"
+
+#: inc/Base/ReportController.php:160
+msgid "Report Orders/%s (Summary)"
+msgstr "Produtos por %s"
+
+#: inc/Base/ReportController.php:166
+msgid "Report Orders/Pickup Place"
+msgstr "Pedidos por local de retirada"
+
+#: inc/Base/ReportController.php:172
+msgid "Report %s (Summary)/Pickup place"
+msgstr "Produtos por %s por local de retirada"
+
+#: inc/Base/ReportController.php:178
+msgid "Report %s (Summary)/Payment Method"
+msgstr "Pedidos por %s por método de pagamento"
+
+#: inc/Base/ReportController.php:187
+msgid "Reports"
+msgstr "Relatórios"
+
+#: inc/Base/ReportController.php:233
+msgid "Select the cycle to see the report."
+msgstr "Selecione o ciclo que você deseja ver nesse relatório."
+
+#: inc/Base/ReportController.php:250
+msgid "Include taxes"
+msgstr "Incluir margem"
+
+#: inc/Base/ReportController.php:251
+msgid "Includes taxes in this report"
+msgstr "Incluir margem nesse relatório"
+
+#: inc/Base/ReportController.php:263
+msgid "Order by"
+msgstr "Ordenar por"
+
+#: inc/Base/ReportController.php:264
+msgid "Choose how to order your report."
+msgstr "Escolha como ordenar seu relatório."
+
+#: inc/Base/ReportController.php:266 inc/Base/ReportController.php:269
+msgid "Date"
+msgstr "Data"
+
+#: inc/Base/ReportController.php:267
+msgid "Name"
+msgstr "Nome"
+
+#: inc/Base/ReportController.php:278
+msgid "Export"
+msgstr "Exportar"
+
+#: inc/Base/ReportController.php:284
+msgid "Report"
+msgstr "Relatorio"
+
+#, fuzzy
+#~| msgid "Total"
+#~ msgid "Total "
+#~ msgstr "Total"
+
+#~ msgid "Total suppliers"
+#~ msgstr "Total de fornecedoras"
+
+#~ msgid "orders"
+#~ msgstr "pedidos"
+
+#~ msgid "suppliers"
+#~ msgstr "fornecedoras"
+
+#~ msgid "Line price"
+#~ msgstr "Preço da linha"
+
+#~ msgid "Delivery places"
+#~ msgstr "Locais de retirada"
+
+#~ msgid "Delivery place"
+#~ msgstr "Local de retirada"
+
+#, fuzzy
+#~| msgid "No cycle"
+#~ msgid "Close cycle \""
+#~ msgstr "Nenhum ciclo"
+
+#~ msgid ""
+#~ "O ciclo que você está criando se sobrepõe ao ciclo \"%d\" (%s - %s). "
+#~ "Escolha novas datas e tente novamente."
+#~ msgstr ""
+#~ "O ciclo que você está criando se sobrepõe ao ciclo \"%d\" (%s - %s). "
+#~ "Escolha novas datas e tente novamente."
